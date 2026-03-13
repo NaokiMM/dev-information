@@ -22,10 +22,18 @@
 // --------------------------------
 import React, { useState } from "react";
 
+// CounterProps型を定義
+// React + TypeScript では props の型を定義
 type CounterProps = {
+  // initialは数値というルール
   initial: number;
 };
 
+// メインコンポーネントを定義
+// CounterProps は「引数の型（ルール）」で、initial はその引数の中にある値（number）です。
+// 引数はオブジェクトで、そのオブジェクトの中の initial が数値
+// Reactでは props は必ずオブジェクトで受け取る
+// 今後 props が増えても管理しやすくするために type を作っている
 export default function Counter({ initial }: CounterProps) {
   const [count, setCount] = useState<number>(initial);
 
