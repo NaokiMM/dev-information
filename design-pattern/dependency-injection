@@ -1,0 +1,26 @@
+Dependency Injection (DI)
+
+▫️使用するメリット
+"テストしやすい、保守しやすい、
+依存関係が整理される"
+
+▫️使い方の説明
+"依存しているものを外から渡して、
+差し替え可能にする
+（固定ではなく
+動的に動かせるようにする）
+
+対象となるのは依存している箇所
+「自分の中で new してるもの」＝依存"
+
+▫️対象のサンプルコード
+"① DB
+new UserService(new Database())"
+"② APIクライアント
+new UserService(new ApiClient())"
+"③ ログ
+new UserService(new Logger())"
+"④ 設定・環境変数
+new UserService(new Config())"
+"⑤ 外部サービス（AIとか）
+new UserService(new GeminiClient())"
