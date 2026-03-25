@@ -1,0 +1,25 @@
+Observer
+
+▫️使用するメリット
+"イベント通知を
+疎結合で実装できる"
+
+▫️使い方の説明
+"Observerはクラス内で
+扱っているデータが
+変わった時に通知させる
+仕組みなのね
+
+■ Observerの使用用途
+クラス設計（Subject / Observerパターン）
+DOMイベント（addEventListener）
+フロントフレームワーク（React / Vue の状態更新）
+Promise / async処理（then / await）
+WebSocket（リアルタイム通知）
+イベントバス（pub/sub）
+RxJS（ストリーム処理）
+Redux / 状態管理（subscribe）
+ファイル監視（変更検知）
+ログ監視 / アラート通知
+チャット / 通知機能
+ゲーム開発（イベント発火）"
