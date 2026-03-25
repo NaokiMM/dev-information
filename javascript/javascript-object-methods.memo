@@ -1,0 +1,17 @@
+"データ型毎に扱えるメソッド"
+
+"Object専用メソッド
+プロパティ操作が基本
+
+const user = {}
+
+追加: user.name = ""Taro""
+削除: delete user.name
+
+Object用の関数
+・Object.keys(user): オブジェクトのキー
+（プロパティ名）だけを配列で取得する
+・Object.values(user): オブジェクトの値だけを
+配列で取得する
+・Object.entries(user): [キー, 値] のペアを
+配列で取得する"
