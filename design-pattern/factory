@@ -1,0 +1,16 @@
+Factory
+
+▫️使用するメリット
+"オブジェクト生成を隠せる
+生成ロジックをまとめられる"
+
+▫️使い方の説明
+"UserFactoryとは
+別でクラスを複数書いて
+呼び出す時は
+こんな感じで
+UserFactoryで
+adminクラスを呼び出すってこと"
+
+▫️対象のサンプルコード
+const user = UserFactory.create("admin")
